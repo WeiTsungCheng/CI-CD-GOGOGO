@@ -6,8 +6,8 @@ xcode_scheme: Numero
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 
 notifications:  
-email:  
-recipients:  
-    - sanctuary85c@gmail.com  
+  email:  
+    recipients:  
+    - sanctuary85c@gmail.com 
     on_success: always  
     on_failure: always
