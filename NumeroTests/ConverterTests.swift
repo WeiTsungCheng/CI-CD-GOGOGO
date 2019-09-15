@@ -52,7 +52,7 @@ class ConverterTests: XCTestCase {
     
     func testAdd() {
         let result = adder.add(x: 3, y: 5)
-        XCTAssertEqual(result, 1)
+        XCTAssertEqual(result, 8)
     }
     
 }
