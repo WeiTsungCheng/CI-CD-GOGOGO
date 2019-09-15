@@ -17,6 +17,7 @@
 		3052E8882010950800F6F30B /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneViewController.swift */; };
 		30833EE42014681A000488C0 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833EE32014681A000488C0 /* Shuffle.swift */; };
 		CDCB234722178A39003C94B1 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB234622178A39003C94B1 /* ConverterTests.swift */; };
+		F41EAB8E232E1F4000D69BDD /* Adder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41EAB8D232E1F4000D69BDD /* Adder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3052E8872010950800F6F30B /* GameDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneViewController.swift; sourceTree = "<group>"; };
 		30833EE32014681A000488C0 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
 		CDCB234622178A39003C94B1 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
+		F41EAB8D232E1F4000D69BDD /* Adder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				3052E883201041FA00F6F30B /* Game.swift */,
 				30833EE32014681A000488C0 /* Shuffle.swift */,
 				3052E8852010600D00F6F30B /* Converter.swift */,
+				F41EAB8D232E1F4000D69BDD /* Adder.swift */,
 			);
 			path = Numero;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				30833EE42014681A000488C0 /* Shuffle.swift in Sources */,
 				3052E858201040F500F6F30B /* ViewController.swift in Sources */,
 				3052E884201041FA00F6F30B /* Game.swift in Sources */,
+				F41EAB8E232E1F4000D69BDD /* Adder.swift in Sources */,
 				3052E8862010600D00F6F30B /* Converter.swift in Sources */,
 				3052E856201040F500F6F30B /* AppDelegate.swift in Sources */,
 			);

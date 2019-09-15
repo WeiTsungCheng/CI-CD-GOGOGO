@@ -32,10 +32,12 @@ import XCTest
 
 class ConverterTests: XCTestCase {
     var converter: Converter!
+    var adder: Adder!
     
     override func setUp() {
         super.setUp()
         converter = Converter()
+        adder = Adder()
     }
     
     override func tearDown() {
@@ -47,4 +49,10 @@ class ConverterTests: XCTestCase {
         let result = converter.convert(1)
         XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
     }
+    
+    func testAdd() {
+        let result = adder.add(x: 3, y: 5)
+        XCTAssertEqual(result, 4)
+    }
+    
 }
